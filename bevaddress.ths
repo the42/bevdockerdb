@@ -1,99 +1,84 @@
-01.bez: erster bezirk
-02.bez: zweiter bezirk
-03.bez: dritter bezirk
-04.bez: vierter bezirk
-05.bez: fünfter bezirk
-06.bez: sechster bezirk
-07.bez: siebenter bezirk
-08.bez: achter bezirk
-09.bez: neunter bezirk
-10.bez: zehnter bezirk
-11.bez: elfter bezirk
-12.bez: zwöflfer bezirk
-13.bez: dreizehnter bezirk
-14.bez: vierzehnter bezirk
-15.bez: fünfzehnter bezirk
-16.bez: sechzehnter bezirk
-17.bez: siebzehnter bezirk
-18.bez: achzehnter bezirk
-19.bez: neunzehnter bezirk
-20.bez: zwanzigster bezirk
-21.bez: einundzwanzigster bezirk
-22.bez: zweiundzwanzigster bezirk
-23.bez: dreiundzwanzigster bezirk
+01.bez: erster 1 01.bez
+02.bez: zweiter 2 02.bez
+03.bez: dritter 3 03.bez
+04.bez: vierter 4 04.bez
+05.bez: fünfter 5 05.bez
+06.bez: sechster 6 06.bez
+07.bez: siebenter 7 07.bez
+08.bez: achter 8 08.bez
+09.bez: neunter 9 09.bez
+10.bez: zehnter 10 10.bez
+11.bez: elfter 11 11.bez
+12.bez: zwöflfer 12 12.bez
+13.bez: dreizehnter 13 13.bez
+14.bez: vierzehnter 14 14.bez
+15.bez: fünfzehnter 15 15.bez
+16.bez: sechzehnter 16 16.bez
+17.bez: siebzehnter 17 17.bez
+18.bez: achzehnter 18 18.bez
+19.bez: neunzehnter 19 19.bez
+20.bez: zwanzigster 20 20.bez
+21.bez: einundzwanzigster 21 21.bez
+22.bez: zweiundzwanzigster 22 22.bez
+23.bez: dreiundzwanzigster 23 23.bez
 
-Innere Stadt:erster bezirk
+# District "Innere Stadt" shared by Vienna, Klagenfurt and Graz
+Innere:1 01.bez erster innere
 
-St.Veiter Vorstadt:fünfter bezirk
-Völkermarkt.Vorst.:sechster bezirk
-Viktringer Vorstadt:siebenter bezirk
-Villacher Vorstadt:achter bezirk
-Annabichl:neunter bezirk
-St. Peter:zehnter bezirk
-St. Ruprecht:elfter bezirk
-St. Martin:zwölfter bezirk
-Viktring:dreizehnter bezirk
-Wölfnitz:vierzehnter bezirk
-Hörtendorf:fünfzehnter bezirk
+# Districts of Klagenfurt
+# Innere Stadt is district 1 - 4
+St.Veiter:5 05.bez fünfter St.Veiter
+Völkermarkt:6 06.bez sechster völkermarkt
+Viktringer:7 07.bez siebenter Viktring Viktringer Vorstadt
+Villacher:8 08.bez achter Villacher Vorstadt
+Annabichl:9 09.bez neunter Annabichl
+# The following is also a district of graz
+Peter:8 08.bez 10 10.bez achter zehnter Peter
+Ruprecht:11 11.bez elfter Ruprecht
+Martin:12 12.bez zwölfter Martin
+Viktring:13 12.bez dreizehnter Viktring
+Wölfnitz:14 14.bez vierzehnter Wölfnitz
+Hörtendorf:15 15.bez fünfzehnter Hörtendorf
 
-Sankt Leonhard: zweiter bezirk
-Geidorf: dritter bezirk
-Lend: vierter bezirk
-Gries: fünfter bezirk
-Jakomini: sechster bezirk
-Liebenau: siebenter bezirk
-Sankt Peter: achter bezirk
-Waltendorf: neunter bezirk
-Ries: zehnter bezirk
-Mariatrost: elfter bezirk
-Andritz: zwölfter bezirk
-Gösting: dreizehnter bezirk
-Eggenberg: vierzehnter bezirk
-Wetzelsdorf: fünfzehnter bezirk
-Straßgang: sechzehnter bezirk
-Puntigam: siebzehnter bezirk
+# Districts of Graz
+Leonhard: 2 02.bez zweiter Leonhard
+Geidorf: 3 03.bez dritter Geidorf
+Lend: 4 04.bez vierter Lend
+Gries: 5 05.bez fünfter gries
+Jakomini: 6 06.bez sechster jakomini
+Liebenau: 7 07bez siebenter liebenau
+# the following is already included in districts of Klagenfurt above
+# Peter: 8 08.bez achter peter
+Waltendorf: 9 09.bez neunter waltendorf
+Ries: 10. 10.bez zehnter ries
+Mariatrost: 11 11.bez elfter mariatrost
+Andritz: 12 12.bez zwölfter andritz
+Gösting: 13 13.bez dreizehnter gösting
+Eggenberg: 14 14.bez vierzehnter eggenberg
+Wetzelsdorf: 15 15.bez fünfzehnter wetzelsdorf
+Straßgang: 16 16.bez sechzehnter straßgang strassgang
+Puntigam: 17 17.bez siebzehnter puntigam
 
-Leopoldstadt: zweiter bezirk
-Leopoldstadt: 2. bezirk
-Landstraße: dritter bezirk
-Landstraße: 3. bezirk
-Wieden: vierter bezirk
-Wieden: 4. bezirk
-Margareten: fünfter bezirk
-Margareten: 5. bezirk
-Mariahilf: sechster bezirk
-Mariahilf: 6. bezirk
-Neubau: siebenter bezirk
-Neubau: 7. bezirk
-Josefstadt: achter bezirk
-Josefstadt: 8. bezirk
-Alsergrund: neunter bezirk
-Alsergrund: 9. bezirk
-Favoriten: zehnter bezirk
-Favoriten: 10. bezirk
-Simmering: elfter bezirk
-Simmering: 11. bezirk
-Meidling: zwölfter bezirk
-Meidling: 12. bezirk
-Hietzing: dreizehnter bezirk
-Hietzing: 13. bezirk
-Penzing: vierzehnter bezirk
-Penzing: 14. bezirk
-Rudolfsheim-Fünfhaus: fünfzehnter bezirk
-Rudolfsheim-Fünfhaus: 15. Bezirk
-Ottakring: sechzehnter bezirk
-Ottakring: 16. bezirk
-Hernals: siebzehnter bezirk
-Hernals: 17. bezirk
-Währing: achzehnter bezirk
-Währing: 18. bezirk
-Döbling: neunzehnter bezirk
-Döbling: 19. bezirk
-Brigittenau: zwanzigster bezirk
-Brigittenau: 20. bezirk
-Floridsdorf: einundzwanzigster bezirk
-Floridsdorf: 21. bezirk
-Donaustadt: zweiundzwanzigster bezirk
-Donaustadt: 22. bezirk
-Liesing: dreiunzwanzigster bezirk
-Liesing: 23. bezirk
+# Districts of Vienna. Innere Stadt is already defined above
+Leopoldstadt: 2 02.bez zweiter leopoldstadt
+Landstraße: 3 03.bez dritter landstraße landtrasse
+Wieden: 4 04.bez vierter wieden
+Margareten: 5 05.bez fünfter margareten
+Mariahilf: 6 06.bez sechster mariahilf
+Neubau: 7 07.bez siebenter neubau
+Josefstadt: 8 08.bez achter josefstadt
+Alsergrund: 9 09.bez neunter alsergrund
+Favoriten: 10 10.bez zehnter favoriten
+Simmering: 11 11.bez elfter simmering
+Meidling: 12 12.bez zwölfter meidling
+Hietzing: 13 13.bez dreizehnter hietzing
+Penzing: 14 14.bez vierzehnter penzing
+Rudolfsheim-Fünfhaus: 15 15.bez fünfzehnter Rudolfsheim-Fünfhaus
+Ottakring: 16 16.bez sechzehnter ottakring
+Hernals: 17 17.bez siebzehnter hernals
+Währing: 18 18.bez achzehnter währing
+Döbling: 19 19.bez neunzehnter döbling
+Brigittenau: 20 20.bez zwanzigster brigittenau
+Floridsdorf: 21 21.bez einundzwanzigster floridsdorf
+Donaustadt: 22 22.bez zweiundzwanzigster donaustadt
+Liesing: 23 23.bez dreiunzwanzigster liesing

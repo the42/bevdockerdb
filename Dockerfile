@@ -1,3 +1,6 @@
 FROM mdillon/postgis
-ADD bevaddress.syn /usr/share/postgresql/$PG_MAJOR/tsearch_data/
-ADD bevaddress_host.syn /usr/share/postgresql/$PG_MAJOR/tsearch_data/
+MAINTAINER Johann Höchtl <johann.hoechtl@gmail.com>
+
+
+COPY bevaddress.syn /usr/share/postgresql/$PG_MAJOR/tsearch_data/
+COPY bevaddress.ths /usr/share/postgresql/$PG_MAJOR/tsearch_data/
