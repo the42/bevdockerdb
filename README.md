@@ -5,6 +5,7 @@ This Docker image specification provides a slight variation of https://hub.docke
 
 
 It extends the PostGIS Docker image by two dictionaries:
+
 1. A simple synonym dictionary file which mostly woks around FTS index issues of PostGIS
 2. A thesaurus dictionary which greatly improves FTS by providing meaningful alternatives to eg. city district denominations like
     Wien, Wieden <--> Wien, vierter Bezirk
